@@ -7,7 +7,7 @@ class TodoApp extends Component {
     super();
     this.state = {
       todo: '',
-      todos: ['Walk the dog']
+      todos: ['']
     };
   }
 
