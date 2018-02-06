@@ -12,7 +12,7 @@ class TodoApp extends Component {
   }
 
   clearInput = () => {
-    this.setState({ todo: '' })
+    this.setState({ todo: '' });
   }
 
   addTodo = () => {
@@ -25,7 +25,7 @@ class TodoApp extends Component {
   removeTodo = (index) => {
     const nextTodos = Array.from(this.state.todos);
     nextTodos.splice(index, 1);
-    this.setState({ todos: nextTodos })
+    this.setState({ todos: nextTodos });
   }
 
   handleChange = (e) => {

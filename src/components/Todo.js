@@ -8,11 +8,11 @@ const Todo = (props) => {
             {description}
             <button onClick={() => removeTodo(index)}>Remove Todo</button>
         </li>
-    )
-}
+    );
+};
 
 Todo.propTypes = {
     description: PropTypes.string.isRequired,
-}
+};
 
 export default Todo;
